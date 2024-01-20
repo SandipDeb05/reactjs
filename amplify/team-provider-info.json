@@ -10,6 +10,14 @@
       "StackName": "amplify-reactjs-dev-203553",
       "StackId": "arn:aws:cloudformation:ap-south-1:214517313061:stack/amplify-reactjs-dev-203553/69fab930-b7a5-11ee-8a51-067232fdc6fc",
       "AmplifyAppId": "datckae73l1ea"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "datckae73l1ea",
+          "type": "cicd"
+        }
+      }
     }
   }
 }
