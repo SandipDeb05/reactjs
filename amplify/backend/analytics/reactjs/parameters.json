@@ -1,0 +1,21 @@
+{
+    "appName": "reactjs",
+    "roleName": "pinpointLambdaRolea7d35d42",
+    "cloudformationPolicyName": "cloudformationPolicya7d35d42",
+    "cloudWatchPolicyName": "cloudWatchPolicya7d35d42",
+    "pinpointPolicyName": "pinpointPolicya7d35d42",
+    "authPolicyName": "pinpoint_amplify_a7d35d42",
+    "unauthPolicyName": "pinpoint_amplify_a7d35d42",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

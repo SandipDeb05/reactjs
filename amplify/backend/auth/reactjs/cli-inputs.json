@@ -1,0 +1,12 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "reactjs_identitypool_71db118c",
+    "allowUnauthenticatedIdentities": true,
+    "authSelections": "identityPoolOnly",
+    "resourceName": "reactjs",
+    "sharedId": "71db118c",
+    "serviceName": "Cognito",
+    "useDefault": "manual"
+  }
+}
