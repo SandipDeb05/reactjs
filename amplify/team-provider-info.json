@@ -17,6 +17,12 @@
           "appId": "datckae73l1ea",
           "type": "cicd"
         }
+      },
+      "auth": {
+        "reactjs": {}
+      },
+      "analytics": {
+        "reactjs": {}
       }
     }
   }
