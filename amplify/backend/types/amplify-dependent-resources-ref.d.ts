@@ -8,8 +8,13 @@ export type AmplifyDependentResourcesAttributes = {
   },
   "auth": {
     "reactjs": {
+      "AppClientID": "string",
+      "AppClientIDWeb": "string",
       "IdentityPoolId": "string",
-      "IdentityPoolName": "string"
+      "IdentityPoolName": "string",
+      "UserPoolArn": "string",
+      "UserPoolId": "string",
+      "UserPoolName": "string"
     }
   }
 }

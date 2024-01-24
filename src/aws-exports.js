@@ -5,15 +5,25 @@ const awsmobile = {
     "aws_project_region": "ap-south-1",
     "aws_cognito_identity_pool_id": "ap-south-1:636b307f-b6a5-4df0-a814-a1d19785c7d3",
     "aws_cognito_region": "ap-south-1",
+    "aws_user_pools_id": "ap-south-1_9JPglsHeK",
+    "aws_user_pools_web_client_id": "1j340vle3ek7qgdc4ne2vnte72",
     "oauth": {},
     "aws_cognito_username_attributes": [],
     "aws_cognito_social_providers": [],
-    "aws_cognito_signup_attributes": [],
-    "aws_cognito_mfa_types": [],
+    "aws_cognito_signup_attributes": [
+        "EMAIL"
+    ],
+    "aws_cognito_mfa_configuration": "OFF",
+    "aws_cognito_mfa_types": [
+        "SMS"
+    ],
     "aws_cognito_password_protection_settings": {
+        "passwordPolicyMinLength": 8,
         "passwordPolicyCharacters": []
     },
-    "aws_cognito_verification_mechanisms": [],
+    "aws_cognito_verification_mechanisms": [
+        "EMAIL"
+    ],
     "aws_mobile_analytics_app_id": "356e3142aeda4cce972a502ca6650705",
     "aws_mobile_analytics_app_region": "ap-south-1",
     "Analytics": {
